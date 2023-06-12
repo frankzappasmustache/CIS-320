@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CIS 320 - Web Development</title>
+<link rel="stylesheet" href="dstyle.css">
+</head>
+<body>
+	<h1>Guidance for image optimization</h1>
+	<ul>
+		<li>Appearance
+			<h5>Before editing the image too heavily in terms of size or quality, you first want to dial in values related to your color such as exposure, saturation, hue, etc. Sometimes these values need to be adjusted in post to compensate for any misconfiguration of the camera or lens when the image was actually taken. Fixing this ahead of time allows your rendered image to display as accurately as possible.</h5>
+		</li>
+		<li>Image type
+			<p><h5>Choosing which type of image you will use is very important as well. Raster images are images that are composed of pixels and are therefor dependent on the resolution of the screen. In order to use raster images efficiently, it is often beneficial to host multiple sizes of the same raster image so that you can serve up an image that is appropriate for the size of screen it is being viewed on. No only does this create a more seemless viewing experience for the user, it also reduces page load time on devices where a larger image may not be necessary.</h5></p>
+			<p><h5>Vector images are not based on pixels and therefore scale up or down seemlessly to whatever size is necessary. While this is true, vector images can also be resource heavy for higher dpi screens, and they are not the best option in cases where an image has complex colors.</h5></p>
+			<p><h5>It is important to remember that a raster image will increase exponentially in file size as the screensize increases, so it may be more economical to stick with vector images whose file size does not correlate with pixel size, but if you do need to use raster images, make sure you serve responsive images as described above (images that are appropriate in size for the screen they are displayed on.)
+		</li>
+		<li>Compression
+			<h5>One additional tool you can use to adjust the file size of an image is compression. There are two types of compression; lossy and lossless. You may be able to save space by using a lossy compression that decreases the size of an image by discarding unnecessary metadata, reducing pixel bit size, and choosing to store only certain color data where possible. A lossy compression algorithm is good for images that do not need to be in high fidelity. However, if you are serving image content that needs to be fidelitous such as portraits for a portfolio, a lossless compression algorithm may be the best way to go. In this case a lossless compression ensures that the image is served with as much detail as possible.</h5>
+		</li>
+	</ul>
+</body>
+</html>

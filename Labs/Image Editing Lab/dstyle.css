@@ -1,0 +1,36 @@
+body {
+  background-color: #e1ad01;
+}
+
+h1 {
+  color: navy;
+  background: tomato;
+  margin: 20px 20px 20px 20px;
+}
+
+h2 {
+  color: navy;
+  background: tomato;
+  margin: 20px 20px 20px 20px;
+}
+
+h5, h6 {
+  color: navy;
+  background: tomato;
+  margin: 20px 20px 20px 20px;
+}
+
+ul li {
+  color: tomato;
+  background: navy;
+  margin: 20px 20px 20px 20px;
+}
+
+ul h5 {
+  margin: 10px 10px 10px 10px;
+}
+
+img {
+  border: 5px solid navy;
+  margin: auto;
+}

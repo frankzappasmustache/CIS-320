@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CIS 320 - Web Development</title>
+<link rel="stylesheet" href="dstyle.css">
+</head>
+<body>
+<p>
+	<h1>Dustin McClure</h1>
+	<h3 style="text-align:left;margin:5px 5px 0px 20px"><a href="image_editing_advice.html">Click here for advice on image optimization!</a></h3>
+	<h2>Tags used to create this page</h2>
+	<ul>
+		<li>Nesting: 
+			<h5>This tag is an example of nesting. I have placed an h5 header inside of a list item inside of an unordered list.
+			</h5>
+		</li>
+		<li>Citation Markup:
+			<h5>
+				<cite>This is a citation. It is used to markup the title of a cited work.
+				</cite>
+			</h5>
+		</li>
+		<li>Abbreviation Tag:
+			<h5>
+				<abbr title="Abbreviation">abbr</abbr> is a tag used to abbreviate something and show the fully expanded word upon mouseover
+			</h5>
+		</li>
+		<li>Quotes:
+			<h5>
+				<q>A quote tag is used to distinguish a word or sentence from the rest of a paragraph in html by using quotation marks.
+				</q>
+			</h5>
+		</li>
+		<li>Links:
+			<h5>
+				<a href="https://www.w3schools.com/html/html_links.asp">The link tag "a" is used to link to a source outside of a document or at a different anchored place in the document. This short paragraph is a link to the w3 schools page on html links.
+				</a>
+			</h5>
+		</li>
+	</ul>
+	<h2>Update with unordered list of attributes used in implementing images lab along with their roles</h2>
+	<ul>
+		<li>src:
+			<h5>
+				The src (source) attribute is used to specify the URL of an external resource.
+			</h5>
+		</li>
+		<li>alt:
+			<h5>
+				The alt (alternative) attribute gives the user alternative information for an image in the case that they cannot see the image.
+			</h5>
+		</li>
+		<li>style:
+			<h5>
+				The style attribute is used to define style for a specific html element, and it overrides any global styles that are set by the &lt;style&gt; tag or any css files.
+			</h5>
+		</li>
+	</ul>
+	<h2>Here are 3 images displayed using the &lt;img&gt; tag.</h2>
+	<img src="flower1.png" alt="picture of a multicolored tulip field">
+	<h5>To optimize this image, I cropped it to a smaller size, adjusted the white balance, adjusted the contrast of the image, adjusted the saturation, and then exported it as a png file with lossy compresion and significantly less metadata (I only kept the color profile) </h5>
+	<img src="flower2.png" alt="picture of a pink tulip field">
+	<h5>To optimize this image, I cropped it to a smaller size, adjusted the white balance, adjusted the contrast of the image, adjusted the saturation, and then exported it as a png file with lossy compresion and significantly less metadata (I only kept the color profile) </h5>
+	<img src="flower3.png" alt="picture of a multicolored tulip field">
+	<h5>To optimize this image, I cropped it to a smaller size, adjusted the white balance, adjusted the contrast of the image, adjusted the saturation, and then exported it as a png file with lossy compresion and significantly less metadata (I only kept the color profile) </h5>
+
+	<h5>All three of these images are hosted in the same directory I am serving my html and css files from, and to display them I simply included the image's relative filepath <q style="color:purple;font-weight:bold;">src</q> attribute.</h5>
+	<h5>If someone using a screenreader were to view this page, they would hear the text included in the alt attribute for each image, which tells them what the picture is of. It is important that alt text is included for people who may be blind or not able to read the page for other reasons. The alt text provides a description of the image tha can be read to them for context.</h5>
+</p>
+</body>
+</html>
